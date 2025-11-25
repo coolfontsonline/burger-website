@@ -1,0 +1,17 @@
+<img onclick="window.open(this.src, '_blank');" src="assets/xyz" />
+
+
+TO DO for launch
+    button art
+        navbar buttons  
+            apply navbar to all pages
+        homescreen buttons
+    images
+        apply onclick to all images
+
+STRETCH GOALS
+    javascript
+        page memory
+        images that follow through sections
+    secrets
+        
