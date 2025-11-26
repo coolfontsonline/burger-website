@@ -10,34 +10,46 @@
 <!-- AMY'S TO DO
         Rist's spelling pass (good luck, rist!)
         implement finished navbar
-        finalize formatting
-        add the rest of the images
-            with onclick
-        code block support?
+        like eighteen formatting passes
+        code block support
+        image alt text and captions
         -->
 <body>
 
-    <div> 
-        <h1 class="title">Grim in Pink</h1>
-        <p>video games</p>
-        <p>home | my hot takes | about | amy</p>
-        <br />
-    </div>
+    <div class="titlebar"> 
 
+        <table>
+                <tr>
+                        <td><a href="index.html"><img class="button hover" src="assets/button1.png"/></a></td>
+                        <td><a href="index.html"><img class="button hover" src="assets/button1.png"/></a></td>
+                        <td><a href="index.html"><img class="button hover" src="assets/button1.png"/></a></td>
+                        <td><table>
+                                <tr>
+                                        <td><td><a href="index.html"><img class="button hover" src="assets/button1.png"/></a></td></td>
+                                </tr>
+                                <tr>
+                                        <td><td><a href="index.html"><img class="button hover" src="assets/button1.png"/></a></td></td>
+                                </tr>
+                        </table></td>
+                </tr>
+        </table>
+
+    </div>
+    <br>
 
     <div> 
         <h2>The Shattered Visage of a Turtle</h2>
         <h4>In which I discover and solve a 2-decade old Mario World Mystery, personally thank Barack Obama and Change
             the World</h4>
-        <p>TheGamingBurgerAwesomeReviews, December 13, 2023</p>
+        <p>December 13, 2023</p>
     </div>
-
+<br>
     <div> 
         <p>
             At the end of Super Mario World, the second to last screen you see is this:
         </p>
 
-        <img src="assets/blog/0004-turtle/1.webp" alt="You are going to see this image a lot. Not nearly as long as I have tho" />
+        <img onclick="window.open(this.src, '_blank');" src="assets/blog/0004-turtle/1.webp" alt="You are going to see this image a lot. Not nearly as long as I have tho" />
 
         <p>
             All of the Koopalings and their implicit daddy- one happy family.
@@ -48,7 +60,7 @@
             and have since they were printing magazines promoting Mario 3:
         </p>
 
-        <img src="assets/blog/0004-turtle/2.webp" alt="They are Mesmerized by it" />
+        <img onclick="window.open(this.src, '_blank');" src="assets/blog/0004-turtle/2.webp"/>
 
         <p>
             Perhaps we should review further,
@@ -56,7 +68,7 @@
             you’re going to hear them come up quite frequently.
         </p>
 
-        <img src="assets/blog/0004-turtle/3.webp" alt="BOY Koopa" />
+        <img onclick="window.open(this.src, '_blank');" src="assets/blog/0004-turtle/3.webp"/>
 
         <p>
             This is Morton, Roy, and Ludwig von Koopa.
@@ -71,8 +83,7 @@
             the easiest to remember Koopaling sporting a composers hairmop and a mono-vampiric buck tooth.
             <br><br>
             This begs the question: what went wrong in the cast roll sprites pictured below?
-            Also Bowser is here. He just looks that way because he does. No, it isn't for limitation reasons. they just
-            thought it looked good.
+            <img onclick="window.open(this.src, '_blank');" src="assets/blog/0004-turtle/4.webp"/>
             Morton should be Gray, and Roy should be Pink!
             <br><br>
             Many (and maybe nearly all) people tend to answer "they switched Roy and Morton's colors" and call it day-
@@ -91,7 +102,7 @@
             that!"
             <br><br>
             Pictured below, How the Koopalings in question appear in game:
-            These would make a good stickers, wouldn’t they?
+            <img onclick="window.open(this.src, '_blank');" src="assets/blog/0004-turtle/5.webp"/>
             <br><br>
             The above words may have frustrated you. If that's the case, there's a good chance a more honest answer to
             the question of "what the hell happened to Roy and Morton's Sprites" is "I don't care." That's fine! I'm not
@@ -116,9 +127,7 @@
             I need to get this out right now: I love Mario World. It is an ugly looking game to me. It is okay, great
             even, to love ugly things. Please re-orient yourself if you can't accept that final sentiment- it's merely a
             personal one anyways.
-            If you notice something funky, this is actually a screenshot of a level from the "mario world built from
-            memory" ROMHack. Note that this does not change the graphics or colors, which is the point of the image.
-            TBH, I kind of just want to see if anyone notices that this isn't a Mario World Screnshot.
+            <img onclick="window.open(this.src, '_blank');" src="assets/blog/0004-turtle/6.webp"/>
             You do not have to agree with me. I love Mario World probably (definitely) more than you, but it is very
             much not something that takes full advantage of the graphics power of the SNES
             <br><br>
@@ -138,7 +147,7 @@
             from memory, he'd call a tile, give it a spot, and the tile would draw itself using the following
             information: which direction is each tile facing? What color is each pixel? Is it in the foreground or
             background?
-            All Sprites Ripped will be thanks to Barrack Obama. I promise I will explain.
+            <img onclick="window.open(this.src, '_blank');" src="assets/blog/0004-turtle/7.webp"/>
             Look at him. He’s my Boy, Roy. Boy Koopa.
             <br><br>
             What we care about is the color. Good ol' Roy here is drawn using these 8 colors: 3 Shades of Green, 2
@@ -153,6 +162,7 @@
             tiles. But what colors is Mario World keeping track of? How does it determine which colors to use for what
             and when? Let me spoil the answer; below is an image that shows the basic color palettes available in a
             Mario World level:
+            <img onclick="window.open(this.src, '_blank');" src="assets/blog/0004-turtle/8.webp"/>
             The pattern squares are Transparent tiles. Didn’t want you to think there were a bunch of pink tiles in
             every palette! Original version of this image comes from THIS tutorial.
             <br><br>
@@ -164,7 +174,7 @@
             in the foreground and background- pipes, coins, ground tiles, those sort of things! I literally do not care
             about those today, so we only have to concern ourselves with the bottom half of this chart, now pictured
             below:
-            You see it now don't you? Why this game is so goddamn ugly?
+            <img onclick="window.open(this.src, '_blank');" src="assets/blog/0004-turtle/9.webp"/>
             Please forgive the compression of each color tile- websites like substack have a habit of “helping” images
             by applying a compression algorithm that works well for photos of things, but terrible for colors. What is
             modern society if not a series of knobs we’re not allowed to adjust? Ah well.
@@ -179,12 +189,14 @@
             only use 8 colors? There are 16 in a row! Mario World chooses to only use 8 for reasons we'll guess at
             later; I mention this now because we need to talk about the exception to the rule: The Plumber.
             Row 1
+            <img onclick="window.open(this.src, '_blank');" src="assets/blog/0004-turtle/10.webp"/>
             I am aware this sprite is slightly wrong. I promise I will explain. I really promise.
             Beautiful. Sprite rip credit to Barrack Obama. I promise I will explain and that isn’t a joke
             <br><br>
             Look at him. Count the colors: 3 maroon, 3 blue, 4 skin tones, 1 black, 1 white, 1 transparent. That's 12!
             12 is bigger than 8, so you need to use a whole row, which is what they did- The Player's Sprite is always
             drawn from Row 0.
+            <img onclick="window.open(this.src, '_blank');" src="assets/blog/0004-turtle/11.webp"/>
             <br><br>
             The other colors are for Mario's fireballs and the pink and his occasionally rosy cheeks. (Peach also uses
             this palette, so the pink does some heavy lifting)
@@ -199,24 +211,20 @@
             From here on out, every tile is only going to use 8 colors of each row- IE Half. Let's figure out each row's
             use.
             ROW 1:
+            <img onclick="window.open(this.src, '_blank');" src="assets/blog/0004-turtle/12.webp"/>
             <br><br>
             The FIRST half is therefore used for common stage elements such as bullet bills, bobombs, and the bone guys
             and never gets switched out. I ORIGINALLY thought fire flowers use the back half, but those are actually
             used by the red berries Yoshi can eat. Thanks to twitter user @ Spacesandwhich_ who was kind enough to
             correct me in this post!
             ROWS 2-5:
+            <img onclick="window.open(this.src, '_blank');" src="assets/blog/0004-turtle/13.webp"/>
             <br><br>
             Okay, for now let's only look at the first half. Why is there 2 tones of orange for every row? I get why
             they need black, white, and transparent, but why do these rows really only differ by THREE colors? Consider
             the following enemies:
-            The color of the Koopa does in fact inform different behaviors- The Red and Green you know, but the Blue one
-            is (i think) faster and when kicked out of its shell, will NOT get back in, but instead kick it. The yellow
-            koopas actually have a homing effect- they will actively try and chase mario's position. When out of their
-            shells, they're the ones that can turn all rainbow and dangerous if they find a new one. Mario world has a
-            razor sharp focus, and it's uninterested in teaching players most of these behaviors outright. Mario 3 would
-            do that, but World is far more intersted in designing agents of chaos. That's why there aren't a lot of
-            enemies you can KO in one hit! Koopas are seen as the "easiest" enemy, which is itself an extremely chaotic
-            enemy with a compicated series of states. Wow!
+            <img onclick="window.open(this.src, '_blank');" src="assets/blog/0004-turtle/14.webp"/>
+            
             For the Record, Barrack Obama is the username of the sprite ripper at Spriter’s Resource. Thanks, Obama
             <br><br>
             Now, space is tight on a cartridge. Do you want to save 4 images of a turtle, or do you want to save 1 and
@@ -224,6 +232,7 @@
             exciting choices a career in game dev presents you. This explains why the shades of Orange or the same- they
             don't change between any of the different color turtles! I also have news about Rows 2-5: they aren't going
             anywhere either. Why? Consider:
+            <img onclick="window.open(this.src, '_blank');" src="assets/blog/0004-turtle/15.webp"/>
             Yeah, I liked it better when his arms were orange. Sure, they didn't look like arms, but they read much
             nicer across his body!
             Now Available in 4 colors
@@ -247,6 +256,7 @@
             <br><br>
             Rows E and F are the only 2 "free" rows that can be changed out for unique sprite colors. A friendly data
             miner found that these are the only options that end up getting used in these rows:
+            <img onclick="window.open(this.src, '_blank');" src="assets/blog/0004-turtle/16.webp"/>
             Pay attention to that last one....
             If you’re bored, try and guess which enemies use what palettes! Also this image is courtesy of
             Kamekthemagickoopa on deviant art here. They said no credit necessary, but I guess I like giving credit
@@ -270,14 +280,17 @@
             In 2018 there was giant leak of Nintendo's internal servers which contained data for many beta elements of
             games, including Mario World. Here are the earliest known sprites of the Koopalings, dated 1989 and 1990
             respectively:
+            <img onclick="window.open(this.src, '_blank');" src="assets/blog/0004-turtle/17.gif"/>
             Look at em dance!
             Yes, Iggy and Wendy had completely different boss fights very late into development
+            <img onclick="window.open(this.src, '_blank');" src="assets/blog/0004-turtle/18.webp"/>
             Images here courtesy of The Cutting Room Floor . net
             <br><br>
             This muddies the waters even further. Why were Roy and Morton the wrong colors, but not the ones in the
             credits? And also wait what's up with Ludwig? Why is he grey now? Wait
             <br><br>
             Oh you're kidding me
+            <img onclick="window.open(this.src, '_blank');" src="assets/blog/0004-turtle/19.webp"/>
             <br><br>
             You mean this entire time HE WAS PINK INSTEAD OF YELLOW?????
             Putting it all together
@@ -290,22 +303,22 @@
             <br><br>
             In case you’re wondering who: we can’t know for sure, but here are the suspects:
             <br><br>
-            Shigefumi Hino: the God of Pikmin, and Yoshi’s Dad, he was the teams credited Character Graphic Designer.
+            1. Shigefumi Hino: the God of Pikmin, and Yoshi’s Dad, he was the teams credited Character Graphic Designer.
             <br><br>
-            Eiji Noto or Satoru Takahata. They’re both credited as “Area Data Programmers.” This is to say they were
+            2. Eiji Noto or Satoru Takahata. They’re both credited as “Area Data Programmers.” This is to say they were
             level designers, but this required technical know how, and it’s clear from their continued to careers they
             were have specialize in VERY heavy lifting programming (Noto was the lead programmer for NSMB) or UI
             Programming (what Takahata sticks to generally). I rule out Yoshihiro Nomoto because they exited the games
             industry after Yoshi’s Story and were nearly consistently a heavy lifter on level design. I might be wrong,
             but I have to take some guesses.
             <br><br>
-            Kazuaki Morita, the object programmer. This meant he programmed and dictated the behaviors of all objects
+            3. Kazuaki Morita, the object programmer. This meant he programmed and dictated the behaviors of all objects
             (tiles, enemies, bosses- Mario excepted as he’s given a separate credit) and therefore *could* have been
             responsible for their animations and therefore color palettes. It would make sense to make these sort of
             mistakes- its clear from his future pedigree (he was the programming supervisor for Breath of the Wild!)
             that he feels the most comfortable strictly programming enemy behaviors.
             <br><br>
-            Toshihiko Nakago, the Program Director. Technically, he’s in charge so everything would be his fault. Sure
+            4. Toshihiko Nakago, the Program Director. Technically, he’s in charge so everything would be his fault. Sure
             wish I could call these people up and ask who is responsible for me getting lost down this well!
             <br><br>
             I'm going to have to speculate a bit about the order of events, but these are informed guesses: It has been
@@ -319,7 +332,7 @@
             Morton and Roy don't need any new sprites for their simple boss fight, (they run up a wall and then try and
             jump on you while making a goofy face, pictured below), and perhaps Ludwig could have been the original
             template for the fight.
-            Ka POOM
+            <img onclick="window.open(this.src, '_blank');" src="assets/blog/0004-turtle/20.webp"/>
             They should have kept the eyebrows
             <br><br>
             It is at this stage that 2 things happen:
@@ -355,8 +368,10 @@
             Now I have a question for you, my loyal reader: Does the order of these steps matter? Unfortunately for me,
             you, and this mystery programmer, it does. They needed to do it in the order outlined above, but it seems
             like they did it in reverse. Here is what happens in each case:
+            <img onclick="window.open(this.src, '_blank');" src="assets/blog/0004-turtle/21.webp"/>
             <br><br>
             And here is, of course, what the final credits scene looks like, as well as a mockup:
+            <img onclick="window.open(this.src, '_blank');" src="assets/blog/0004-turtle/22.webp"/>
             It's like a reptilian burden has been lifted from shoulders. er, shell
             <br><br>
             We have our answer.
@@ -365,6 +380,7 @@
             excellently detailed rip of the Koopaling sprites and using gathered palette info I meticulously recolored
             both the ending screen sprites. I Then compared my hypothetical mockup to the color values of the edited
             ending screen and...
+            <img onclick="window.open(this.src, '_blank');" src="assets/blog/0004-turtle/23.webp"/>
             Sprites on the right is edited, but sourced by Barrack Obama. Thanks again.
             <br><br>
             Wait. Ew. What's going on with Ludwig. What?
@@ -372,12 +388,7 @@
             <br><br>
             So what's going on? This some kind of beta sprite for Ludwig maybe? No! But I'll save you the work of
             playing all the way through Doughnut Plains to see Morton's front facing sprite in action:
-            Both are Green for clear illustration. You see how the white is slightly the wrong color, btw? That isn’t
-            the compression, that’s Barrack Obama- when you make an image in transparent, you generally want to set
-            transparency threshold to 0 (make a color and ONLY a color transparent) but Obama forgot to ALSO set
-            *opacity* threshold to zero, meaning other colors further away from his “transparent color” (the white in
-            this case) ended up slightly transparent, absorbing some of the garish light blue that Barrack chose for the
-            sprite rip. That means every sprite comic in the last near decade has been using inaccurate sprites! Oops!
+            <img onclick="window.open(this.src, '_blank');" src="assets/blog/0004-turtle/24.webp"/>
             <br><br>
             So, how did Morton’s Maw end up on Ludwig? And only his Teeth??? And why doesn't Morton or Roy have Ludwig’s
             missing, singular tooth?
@@ -385,9 +396,7 @@
             Currently, the date is November of 2023, which means those of you only familiar with modern game development
             are wondering how such a mistake could happen. You might see Ludwig and think of him as one, SINGULAR Hunky
             turtle. The reality is that Ludwig is in Shambles:
-            You can see the mistake here as well- I mostly fixed the alpha-transparency issue when creating the assets
-            for this article, but I had not yet caught the mistake here! I had caught it the mistake for my own
-            transparency, yes, but I failed to *undo* Obama's failed attempt at clean transparency! Thanks Obama!
+            <img onclick="window.open(this.src, '_blank');" src="assets/blog/0004-turtle/25.webp"/>
             The Shattered Visage of a Turtle
             <br><br>
             Even more metaphysically, Ludwig’s body shares a plane with his confused twins, Morton and Roy. At least now
@@ -399,6 +408,7 @@
             full bodied portraits of haberdashed reptiles? Or would you store 1 turtley image and 3 sporting caps?
             <br><br>
             Knowing your answer, I'm going to compare the standing sprites of Ludwig, Morton, and Roy:
+            <img onclick="window.open(this.src, '_blank');" src="assets/blog/0004-turtle/26.webp"/>
             A lesser author would write here "to shreds, you say" but I'm built different: The blue here is the same
             blue Barrack Obama used for transparent values. You can see how with some settings left on mindlessly, how
             the white might be close enough to this calm, powder blue to ALSO be marked as transparent and carry a
@@ -427,7 +437,7 @@
             No. I'm not going to explain how Mario World draws everything on the screen because then I would have to
             explain where code actually lives in Mario World, how it draws tiles every frame and updates them based on
             code processes going on. I only need you to understand how a programmer would want to draw *this* screen:
-            Sheen, that's the third time this week you've shown the Koopaling Cast Roll Screen!
+            <img onclick="window.open(this.src, '_blank');" src="assets/blog/0004-turtle/27.webp"/>
             Every time I’ve posted this image, I have made one small, diabolical change.
             <br><br>
             For context, none of these guys are moving. They're all Police Squad Style Freeze Frames that are drawn, and
@@ -438,18 +448,24 @@
             As we said already, we got 16 tiles we need to draw. What do we need to tell the computer in order to draw
             Ludwig exactly right? The way I (and also Mario World) Figures, you need to know:
             <br><br>
-            It's X position on the screen
+            1. It's X position on the screen
             <br><br>
-            It's Y position on the screen
+            2. It's Y position on the screen
             <br><br>
-            Which Battleship coordinate for Which Tile to draw
+            3. Which Battleship coordinate for Which Tile to draw
             <br><br>
-            HOW to draw it, facing which way, Which Color?
+            4. HOW to draw it, facing which way, Which Color?
             <br><br>
             You can represent this data as 4 different numbers. That seems really weird, but I'll explain how they work
             that magic in a bit. Let's go in depth for these categories:
             1. The X Position number
-            <br><br>
+            <br>
+            <!--
+            ----------
+            COME BACK TO ADD CODE BLOCKS
+            ---------->
+            
+            <br>
             The X Position on screen is stored by a single bit. As a refresher, a bit is 8 digits of binary (1's and 0's
             only) which is an idiotic (but technically simple) method of counting.
             <br><br>
@@ -565,7 +581,7 @@
             which tile to draw from a grid (pictured below), shouts out a number 0-255, and that number gets passed to
             an artist at the artist table who knows how to draw any tile from any number they're given, as long as
             someone remembered to tell them what page to draw from earlier.
-            If you see a few tiles with only a weird, thin hair in it- it's Morton's Eyebrows.
+            <img onclick="window.open(this.src, '_blank');" src="assets/blog/0004-turtle/28.webp"/>
             Be honest. It took you a while to look for the right teeth, huh?
             <br><br>
             At most, we have 256 different numbers you can get in binary using 8 digits. But what the hell does that
@@ -577,6 +593,7 @@
             And seriously, WHY are we even bothering with binary? Isn't that extremely cumbersome?
             <br><br>
             Please imagine computers functioning like the picture below:
+            <img onclick="window.open(this.src, '_blank');" src="assets/blog/0004-turtle/29.webp"/>
             <br><br>
             Yes, in a sense, computers did and currently function like this. The way they "store" "numbers" is nothing
             more than illusion- we often explain these things backwards because they're faster to explain that way. I am
@@ -590,6 +607,7 @@
             by tile, a set of 4 different numbers. The first two numbers are the x and y position (like battleship) of
             WHERE to draw, and then a single number that tells the artist WHAT to draw, IE, which tile on the page
             (pictured below) to draw.
+            <img onclick="window.open(this.src, '_blank');" src="assets/blog/0004-turtle/30.webp"/>
             As you may have noticed, the default is to have all sprites face left by default. Makes sense in that most
             things stand opposite of Mario, and he faces right most of the time!
             The X’s are unused btw. Also, the smaller shells at the bottom of the image are unused- you might guess why
@@ -606,7 +624,7 @@
             <br><br>
             So now we know the bug and can explain it properly. I will remind you that Ludwig and Morton, actually look
             like this:
-            To Shreds, You Say
+            <img onclick="window.open(this.src, '_blank');" src="assets/blog/0004-turtle/31.webp"/>
             I am a bit worried that If you showed only the pictures, a chunk of the article would disappear, but I like
             to think we learned good, useful things along the way.
             <br><br>
@@ -617,12 +635,13 @@
             brethren. It is, once again, understandable looking at a jumbled image that they yelled out the numbers for
             Morton’s hands and mouth rather than Ludwig’s. Look at the chart below and YOU tell me how quickly you find
             the right teeth and hands for each of the 3 turtles!
-            You know this would look beautiful on a site that didn't forcefully add artifacts to photos...
+            <img onclick="window.open(this.src, '_blank');" src="assets/blog/0004-turtle/32.webp"/>
             Last time I post broken turtle, I promise.
             <br><br>
             And now you know for sure exactly how they did it. Below is another set of mockups.
             Another oddity: Roy is missing his fabulous eyebrows. they basically forgot Roy even has a row of tiles
             above his face. They would never be seen again.
+            <img onclick="window.open(this.src, '_blank');" src="assets/blog/0004-turtle/33.webp"/>
             Okay, I’ll Admit, I was lying when I said I was making small edits to each instance of this image. Sue me.
             <br><br>
             Before we conclude, I'd like to clarify 2, unlikely but possible lingering thoughts of yours.
@@ -632,6 +651,7 @@
             game!” OR, you might be like a 12 year old me, who asked "well if ROY is supposed to be pink, why on earth
             didn't they just let him be RED and make Morton Blue since that's sort of like gray, moreso than Green is?"
             These are specific thoughts, but I made mockups for you:
+            <img onclick="window.open(this.src, '_blank');" src="assets/blog/0004-turtle/34.webp"/>
             <br><br>
             Seeing it now, I don’t think Red works for Roy- It looks muddy when given a 3 tone rich shading style! The
             first mockup, while equally valid in approach, is perhaps the most untruthful of all of them: It was always
@@ -771,11 +791,13 @@
             bulbs at a time).
             <br><br>
             In fact, here is their desk:
+            <img onclick="window.open(this.src, '_blank');" src="assets/blog/0004-turtle/35.webp"/>
             The person drawn here is nobody in particular, since they are meant to represent the SNES itself, not any
             particular artist.
             <br><br>
             So... how does the HOW number (represented by 8 light bulbs) represent 4 different numbers in one? Simple!
             Here's how that number looks on the artist’s desk:
+            <img onclick="window.open(this.src, '_blank');" src="assets/blog/0004-turtle/36.webp"/>
             <br><br>
             Basically, you have a 1 one digit binary, another 1 digit binary, a 2 digit binary number, a 3 digit binary,
             and a final 1 digit binary. Add that up, and you get 8 digits (bulbs).
@@ -812,6 +834,9 @@
             Normally, small tables act as banks of numbers that represent drawing instructions for the SNES- I wouldn’t
             know this personally, as I can tell you that all the freeze-frame enemies in the cast roll are stored in one
             GIANT table, pictured below.
+            <img onclick="window.open(this.src, '_blank');" src="assets/blog/0004-turtle/37.webp"/>
+            <img onclick="window.open(this.src, '_blank');" src="assets/blog/0004-turtle/38.webp"/>
+            <img onclick="window.open(this.src, '_blank');" src="assets/blog/0004-turtle/39.webp"/>
             Look on ye mighty works and despair
             <br><br>
             In addition, you have an entirely separate table that acts as a sort of "table of contents" for this giant
@@ -821,6 +846,7 @@
             using its new table of contents number (called an index). The Koopalings are the final slide of the cast
             roll (the page with the Brothers and Peach are handled by a whole other code), so they're at the bottom of
             their table. Here is approximately where they live:
+            <img onclick="window.open(this.src, '_blank');" src="assets/blog/0004-turtle/40.webp"/>
             Somewhere, Seven Koopa Hotel owners live…
             <br><br>
             Okay that’s a lot of numbers. I need to remind you, these numbers (with dollar signs in front of them, like
@@ -840,6 +866,7 @@
             A Tooth and Some Skin in a Haystack
             <br><br>
             So here is the haystack:
+            <img onclick="window.open(this.src, '_blank');" src="assets/blog/0004-turtle/41.webp"/>
             <br><br>
             And here is what I'm looking for:
             <br><br>
@@ -862,10 +889,12 @@
             <br><br>
             Let's focus on finding the "HOW to draw” numbers first, as editing them is going to be a lot easier. Why?
             Because I mostly understand them. Let's look at the format for those again:
+            <img onclick="window.open(this.src, '_blank');" src="assets/blog/0004-turtle/42.webp"/>
             <br><br>
             We can look at Ludwig's Sprite and try and guess what his "HOW to draw" number will be, since the format is
             so easy to plug in values to. I'm going to attempt to find Ludwig’s sprite as (and I swear I'm not lying) I
             felt like it might be easiest to find him, although I wasn't sure why.
+            <img onclick="window.open(this.src, '_blank');" src="assets/blog/0004-turtle/43.webp"/>
             I was also getting delerious staring at his teeth for this long, tbh
             He’s 16 tiles, not 8, but I figured this would be the most clear way to illustrate my point.
             <br><br>
@@ -881,9 +910,11 @@
             <br><br>
             CCC: This determines the palette, so let’s look at a sample chart and the credits screen in question again
             to figure out what palette Ludwig is using.
+            <img onclick="window.open(this.src, '_blank');" src="assets/blog/0004-turtle/44.webp"/>
             <br><br>
             We're looking for a... Pink? Koopa Palette (always has 2 orange tones)? Oh dear. Mario World usually only
             swaps out the FINAL two palette rows, and only from these options:
+            <img onclick="window.open(this.src, '_blank');" src="assets/blog/0004-turtle/45.webp"/>
             <br><br>
             We know that Morton and Roy are rockin’ Koopa grey and Koopa navy palettes... but hopefully you notice a
             palette that not only maps to Bowser's weird garish colors, but ALSO to an unused Koopa pink? But where
@@ -986,6 +1017,7 @@
             (since they are all the same color, most of the digits are the CCC numbers if you recall).
             <br><br>
             Starting from the bottom I find...
+            <img onclick="window.open(this.src, '_blank');" src="assets/blog/0004-turtle/46.webp"/>
             The .db is just telling you that its writing the info as bytes, ie a single 2 digit number at a time.
             "tables" are an illusion dreamed up by computers, its all actually a bunch of manual assignments and
             indexing done at the language level. I think. Sort of. Don't quote me
@@ -1030,6 +1062,7 @@
             To test that I was right about finding Ludwig (and because if I was right, changing Morton and Roy would be
             so much easier to find) I decided to make a quick test patch. I assumed that the 3rd of the 4 numbers, the
             "What to draw" numbers were right behind the "HOW to draw" numbers. Thus...
+            <img onclick="window.open(this.src, '_blank');" src="assets/blog/0004-turtle/47.webp"/>
             At this point you will dream of this image. It is burned into your soul.
             You can see his arm overlaps his body on the right of Iggy.
             <br><br>
@@ -1037,6 +1070,7 @@
             (more or less) greater than 15. This makes counting (say, from the bottom of a list of 1800) a difficult
             task. In the above screenshot, I had miscounted and instead changed the “X Position” Numbers of Ludwig’s
             Tiles. I decided all I needed to do was subtract 1 from all of those numbers, and I’d be good to go!
+            <img onclick="window.open(this.src, '_blank');" src="assets/blog/0004-turtle/48.webp"/>
             It's clear that somehow, the HOW to nubmers are entirely correct EXCEPT for their X flip numbers, and only
             all the way until his last foot. I don't understand. What even is that blue block by iggy? Just what. LOL
             Apologies to Iggy, the *BEST* Koopaling
@@ -1045,6 +1079,7 @@
             had reached into and sculpted Iggy’s face from existed. I suspected that I had edited some of those core
             values declared AFTER Iggy’s sprite gets drawn that does stuff I don’t understand. So I adjust the addresses
             accordingly and…
+            <img onclick="window.open(this.src, '_blank');" src="assets/blog/0004-turtle/49.webp"/>
             You have no idea how much pressure was relieved when I saw this in game.
             <br><br>
             Bingo.
@@ -1052,6 +1087,7 @@
             <br><br>
             The following image is not a mockup, but is instead a screenshot of an actual, functioning copy of Mario
             World:
+            <img onclick="window.open(this.src, '_blank');" src="assets/blog/0004-turtle/50.webp"/>
             It was an extremely strange feeling seeing this image. It was over- there were no more issues. This sort of
             thing doesn't happen, nor does it happen quickly for me ever. I still feel weird looking at this, like it
             was always meant to be.
@@ -1118,7 +1154,7 @@
             <br><br>
             Reach out to me at Griminpink@gmail.com for any omissions or inquiries (I will draw u something if u ask
             nicely).
-
+            <img onclick="window.open(this.src, '_blank');" src="assets/blog/0004-turtle/51.webp"/>
         </p>
 
 
