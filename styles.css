@@ -98,7 +98,7 @@ img:hover{
     width:30%; float:left; margin-right:20px;
 }
 
-a:link, a:visited, a:hover, a:active{
+.disablelinkdeco:link, .disablelinkdeco:visited, .disablelinkdeco:hover, .disablelinkdeco:active{
     text-decoration: none;
     color: #5A364E;
 }
