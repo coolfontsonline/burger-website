@@ -59,9 +59,7 @@ hr{
 
 
 
-img:hover{
-    transform: scale(1.1);
-}
+
 .hover:hover{
     transform: scale(1.1);
 }
@@ -89,10 +87,16 @@ img:hover{
     }
 }
 .leftblock{
-    width: 45%; height:250px; overflow:clip; float:left; padding:10px;
+    width: 45%; 
+    height:250px; 
+    overflow:clip; 
+    float:left; 
+    padding:10px; 
+    margin-bottom: 30px;
+    line-height: 24px;
 }
 .rightblock{
-    width: 45%; height:250px; overflow:clip; float:right; padding:10px;
+    width: 45%; height:250px; overflow:clip; float:right; padding:10px; margin-bottom:30px; line-height: 24px;
 }
 .blockimg{
     width:30%; float:left; margin-right:20px;
